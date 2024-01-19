@@ -11,7 +11,7 @@ function displayNextWord() {
     currentWordIndex++;
 
     if (currentWordIndex < wordList.length) {
-        setTimeout(displayNextWord, 1000); // Adjust delay as needed
+        setTimeout(displayNextWord, 50); // Adjust delay as needed
     }
 }
 
