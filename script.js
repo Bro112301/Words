@@ -1,4 +1,4 @@
-const wordList = fetch('words.txt')
+const wordList = fetch('index.html')
     .then(response => response.text())
     .then(text => text.split('\n'));
 
